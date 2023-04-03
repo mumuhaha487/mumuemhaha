@@ -22,4 +22,4 @@ count3=1./A
 b=255*(dx*count1+dy*count2+dz*count3)
 b=b.clip(0,255)
 im=Image.fromarray(b.astype('uint8'))
-im.save("122.jpg")#保存图片为123.jpg
+im.save("122.jpg")#保存图片为123.jpg.
